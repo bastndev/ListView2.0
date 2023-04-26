@@ -13,41 +13,14 @@ class AppRoutes {
     //     name: 'Home Screen',
     //     screen: const HomeScreen(),
     //     icon: Icons.home),
-    MenuOptions(
-        route: 'ListView1',
-        name: 'ListView tipe 1',
-        screen: const ListView1Screen(), 
-        icon: Icons.filter_1),
-    MenuOptions(
-        route: 'ListView2',
-        name: 'ListView tipe 2',
-        screen: const ListView2Screen(),
-        icon: Icons.filter_2),
-    MenuOptions(
-        route: 'Alert',
-        name: 'Alert Screen',
-        screen: const AlertScreen(),
-        icon: Icons.add_alert),
-    MenuOptions(
-        route: 'Card',
-        name: 'Tarjetas - Card',
-        screen: const CardScreen(),
-        icon: Icons.credit_card),
-    MenuOptions(
-        route: 'avatar',
-        name: 'Circle Avatar',
-        screen: const AvatarScreen(),
-        icon: Icons.supervised_user_circle_outlined),
-    MenuOptions(
-        route: 'Animated',
-        name: 'Animated Container',
-        screen: const AnimatedScreen(),
-        icon: Icons.play_circle_outline_rounded),
-    MenuOptions(
-        route: 'Inputs',
-        name: 'Text Input',
-        screen: const InputssScreen(),
-        icon: Icons.input_outlined),
+    MenuOptions(route: 'ListView1',name: 'ListView tipe 1',screen: const ListView1Screen(),icon: Icons.filter_1),
+    MenuOptions(route: 'ListView2',name: 'ListView tipe 2',screen: const ListView2Screen(),icon: Icons.filter_2),
+    MenuOptions(route: 'Alert',name: 'Alert Screen',screen: const AlertScreen(),icon: Icons.add_alert),
+    MenuOptions(route: 'Card',name: 'Tarjetas - Card',screen: const CardScreen(),icon: Icons.credit_card),
+    MenuOptions(route: 'avatar',name: 'Circle Avatar',screen: const AvatarScreen(),icon: Icons.supervised_user_circle_outlined),
+    MenuOptions(route: 'Animated',name: 'Animated Container',screen: const AnimatedScreen(),icon: Icons.play_circle_outline_rounded),
+    MenuOptions(route: 'Inputs',name: 'Text Input',screen: const InputssScreen(),icon: Icons.input_outlined),
+    MenuOptions(route: 'slider',name: 'Slider && checks',screen: const SliderScreen(),icon: Icons.store_mall_directory_sharp),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {

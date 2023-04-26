@@ -1,5 +1,7 @@
 
 
+
+export 'package:github_flutter_1/screens/slider_screen.dart';
 export 'package:github_flutter_1/screens/inputs_screen.dart';
 export 'package:github_flutter_1/screens/animated_screen.dart';
 export 'package:github_flutter_1/screens/avatar_screen.dart';
