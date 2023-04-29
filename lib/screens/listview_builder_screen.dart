@@ -12,7 +12,7 @@ class ListViewBuilderScreen extends StatelessWidget {
         context: context,
         removeTop: true,
         removeBottom: true,
-        child: ListView.builder(
+        child: ListView.builder( 
           itemCount: 10,
           itemBuilder: (BuildContext context, int index) {
             
