@@ -20,7 +20,8 @@ class AppRoutes {
     MenuOptions(route: 'avatar',name: 'Circle Avatar',screen: const AvatarScreen(),icon: Icons.supervised_user_circle_outlined),
     MenuOptions(route: 'Animated',name: 'Animated Container',screen: const AnimatedScreen(),icon: Icons.play_circle_outline_rounded),
     MenuOptions(route: 'Inputs',name: 'Text Input',screen: const InputssScreen(),icon: Icons.input_outlined),
-    MenuOptions(route: 'slider',name: 'Slider && checks',screen: const SliderScreen(),icon: Icons.store_mall_directory_sharp),
+    MenuOptions(route: 'slider',name: 'Slider && checks',screen: const SliderScreen(),icon: Icons.slow_motion_video),
+    MenuOptions(route: 'listviewbuilder',name: 'Infinite && Pull to refresh',screen: const ListViewBuilderScreen(),icon: Icons.build_circle_outlined),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {

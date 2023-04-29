@@ -23,7 +23,7 @@ class CardScreen extends StatelessWidget {
         SizedBox(height: 20),
         CustomCardTy2(  imageUrl: 'https://acortar.link/elvEaF', name: null),
         SizedBox(height: 20),
-        CustomCardTy2( imageUrl: 'https://acortar.link/UzbMil', name: 'Model AddI 2' ),
+        CustomCardTy2( imageUrl: 'https://acortar.link/MvJFoS', name: 'Model AddI 2' ),
         SizedBox(height: 20),
         CustomCardTy2( imageUrl: 'https://acortar.link/O3eszY', name: null   ),
         SizedBox(height: 100),
